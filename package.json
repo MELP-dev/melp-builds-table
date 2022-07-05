@@ -1,0 +1,28 @@
+{
+  "name": "@mp-react/table",
+  "version": "0.0.18",
+  "description": "MP React Table",
+  "private": false,
+  "author": "mediaparkcom",
+  "license": "UNLICENSED",
+  "repository": "mediaparkcom/mp-react-table",
+  "main": "./build/table.js",
+  "module": "./build/table.module.js",
+  "exports": "./build/table.modern.js",
+  "typings": "./build/index.d.ts",
+  "engines": {
+    "node": ">=10"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.8.5",
+    "@mui/styles": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.87",
+    "@mui/icons-material": "^5.8.4",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "moment": "^2.29.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-table": "^7.6.3"
+  }
+}
