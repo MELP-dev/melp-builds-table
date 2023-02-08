@@ -72,6 +72,9 @@ export interface MpTableHighlights {
     inactive?: string;
     primary?: string;
     secondary?: string;
+    error?: string;
+    warning?: string;
+    success?: string;
 }
 export interface MpSortRule {
     key: string;
@@ -124,6 +127,9 @@ export interface MpTableClasses {
     highlightedInactive?: string;
     highlightedPrimary?: string;
     highlightedSecondary?: string;
+    highlightedError?: string;
+    highlightedWarning?: string;
+    highlightedSuccess?: string;
     row?: string;
     rowSelected?: string;
     hoveredCellWithFilters?: string;

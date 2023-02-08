@@ -4,4 +4,7 @@ export declare function useRowHighlights(row: Row, highlights?: MpTableHighlight
     inactive: boolean;
     primary: boolean;
     secondary: boolean;
+    error: boolean;
+    warning: boolean;
+    success: boolean;
 };
